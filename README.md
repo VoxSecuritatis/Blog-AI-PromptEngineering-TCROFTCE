@@ -98,5 +98,5 @@ Acknowledge your understanding of the prompt and ask any follow-up questions for
 
 ---
 
-
+© 2025 Brock Frary. All rights reserved.
 
