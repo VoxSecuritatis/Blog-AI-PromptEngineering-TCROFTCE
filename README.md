@@ -94,7 +94,7 @@ Acknowledge your understanding of the prompt and ask any follow-up questions for
 
 ## TCROFTCE Template Prompt
 
-> Copy and paste the following into a text editor to build out the prompt, after creating prompt, copy and paste it into the LLM prompt text box.
+> Copy and paste the following into a text editor to build out the prompt, after creating prompt, copy and paste it into the LLM prompt input text box.
 
 Who? <br>
 What? <br>
