@@ -15,7 +15,7 @@ This is an excellent reference and comes highly recommended to better understand
 1. Build your prompt in a text editor (e.g., Notepad), then paste it into the LLM prompt window.
 2. Answer 5W and 1H questions as input to your prompt.
 3. Answer the follow up questions asked by the LLM to better clarify your prompt objectives; not required, but will make responses more accurate.
-4. Keep frequently used prompts in a "prompt library" in a notebook application, e.g., OneNote, Obisian, Evernote, etc.
+4. Record and keep frequently used prompts in a "prompt library" in a notebook application, e.g., OneNote, Obisian, Evernote, etc.
 5. See the bottom for the short TCROFTCE tempate.
 
 ---
