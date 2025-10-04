@@ -12,15 +12,18 @@ This is an excellent reference and comes highly recommended to better understand
 ---
 
 ## Instructions for Use  
-The *key* fields to send the LLM are **CROFTC** sections for the best possible response from the model.  
-**T** and **E** are optional but recommended to help reference the prompt and guide the LLM’s context understanding.  
-If a CROFTC field is left blank, the model may produce **hallucinations** or slightly inaccurate information.  
-
-Build your prompt in a text editor (e.g., Notepad), then paste it into the LLM prompt window.
+1. Build your prompt in a text editor (e.g., Notepad), then paste it into the LLM prompt window.
+2. Answer clarifying questions asked by the LLM to better clarify your prompt objectives; not required, but will make responses more accurate.
+3. Keep frequently used prompts in a "prompt library" in a notebook application, e.g., OneNote, Obisian, Evernote, etc.
+4. See the bottom for the short TCROFTCE tempate.
 
 ---
 
 ### **CROFTC Framework**
+
+The *key* fields to send the LLM are **CROFTC** sections for the best possible response from the model.  
+**T** and **E** are optional but recommended to help reference the prompt and guide the LLM’s context understanding.  
+If a CROFTC field is left blank, the model may produce **hallucinations** or slightly inaccurate information. 
 
 | **Field** | **Purpose** | **Description / Example** |
 |------------|--------------|----------------------------|
@@ -76,5 +79,24 @@ Example of desired output style:
 - **Predictive Vendor Risk Scoring** — Use AI models to predict vendor risk based on historical incidents, compliance certifications, and financial health indicators.  
   *Value:* Improves risk forecasting accuracy and prioritizes vendor oversight efforts.  
 
-*Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.*
+Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.
+
+---
+
+## TCROFTCE Template Prompt
+
+Title: 
+Context: 
+Role: 
+Objective: 
+Format: 
+Tone: 
+Constraints: 
+Examples:   
+
+Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.
+
+---
+
+
 
