@@ -13,13 +13,25 @@ This is an excellent reference and comes highly recommended to better understand
 
 ## Instructions for Use  
 1. Build your prompt in a text editor (e.g., Notepad), then paste it into the LLM prompt window.
-2. Answer clarifying questions asked by the LLM to better clarify your prompt objectives; not required, but will make responses more accurate.
-3. Keep frequently used prompts in a "prompt library" in a notebook application, e.g., OneNote, Obisian, Evernote, etc.
-4. See the bottom for the short TCROFTCE tempate.
+2. Answer 5W and 1H questions as input to your prompt.
+3. Answer the follow up questions asked by the LLM to better clarify your prompt objectives; not required, but will make responses more accurate.
+4. Keep frequently used prompts in a "prompt library" in a notebook application, e.g., OneNote, Obisian, Evernote, etc.
+5. See the bottom for the short TCROFTCE tempate.
 
 ---
 
-### **CROFTC Framework**
+### **TCROFTCE Framework**
+
+To clarify your prompt, before implementing the TCROFTCE framework, answer the 5W and 1H (who, what, when, where, why, and how) critical thinking questions:
+
+| **Question** | **Purpose in Prompt Building** | **Example (IT Context)** |
+|---------------|--------------------------------|--------------------------|
+| **Who?** | Defines *the audience or role* — who is involved or impacted. | “You are an IT operations manager preparing a report for the CIO.” |
+| **What?** | Specifies *the task or objective* — what needs to be done. | “Identify automation opportunities for improving system uptime.” |
+| **When?** | Establishes *the timeline or timeframe* for relevance. | “Focus on optimization strategies that can be implemented within the next 6 months.” |
+| **Where?** | Sets *the scope or environment* where the task applies. | “Consider a hybrid IT infrastructure spanning on-premise and cloud systems.” |
+| **Why?** | Clarifies *the purpose or goal* — why this task matters. | “The goal is to reduce operational costs while improving reliability and performance.” |
+| **How?** | Describes *the approach or format* the response should follow. | “Provide the output as a numbered list with short explanations and implementation steps.” |
 
 The *key* fields to send the LLM are **CROFTC** sections for the best possible response from the model.  
 **T** and **E** are optional but recommended to help reference the prompt and guide the LLM’s context understanding.  
@@ -27,7 +39,7 @@ If a CROFTC field is left blank, the model may produce **hallucinations** or sli
 
 | **Field** | **Purpose** | **Description / Example** |
 |------------|--------------|----------------------------|
-| **T — Title** | Descriptive name for the prompt | Useful for later reference in the chat (e.g., *Vendor Risk Brainstorming Prompt*). |
+| **T — Title** | Descriptive name for the prompt *(optional but valuable)* | Useful for later reference in the chat (e.g., *Vendor Risk Brainstorming Prompt*). |
 | **C — Context** | Provide background and situational details | Example: “I am a cybersecurity analyst working in enterprise risk management to determine potential third-party security gaps.” |
 | **R — Role** | Assign a role to the AI | Example: “You are a cybersecurity strategist with expertise in vendor risk and governance.” |
 | **O — Objective** | Clearly state what you want the AI to achieve or produce | Example: “Generate a list of AI/ML project ideas for improving vendor risk management.” |
@@ -36,9 +48,6 @@ If a CROFTC field is left blank, the model may produce **hallucinations** or sli
 | **C — Constraints** | List limitations or rules | Examples: *word count limits, avoid jargon, focus on regulated industries, no emojis.* |
 | **E — Examples** | Provide sample inputs or outputs *(optional but valuable)* | Example: *Include a short example of the desired structure or tone to guide the AI.* |
 
----
-
-### **Acknowledgment**
 Always include a line like this at the end of your prompt:  
 > *Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.*
 
@@ -85,14 +94,23 @@ Acknowledge your understanding of the prompt and ask any follow-up questions for
 
 ## TCROFTCE Template Prompt
 
-Title: 
-Context: 
-Role: 
-Objective: 
-Format: 
-Tone: 
-Constraints: 
-Examples:   
+> Copy and paste the following into a text editor to build out the prompt, after creating prompt, copy and paste it into the LLM prompt text box.
+
+Who? <br>
+What? <br>
+When? <br>
+Where? <br>
+Why? <br>
+How? <br>
+
+Title: <br>
+Context: <br> 
+Role: <br> 
+Objective: <br> 
+Format: <br> 
+Tone: <br> 
+Constraints: <br>
+Examples:  <br> 
 
 Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.
 
