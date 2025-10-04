@@ -4,7 +4,7 @@
 ---
 
 This prompt template was originally developed and explained in the book "The Prompt Recipe:  A Practical Guide to Prompt Engineering" by Alden Vale and Ahmed Bouchentouf.  
-This is an excellent reference and come highly recommended to better understand prompt engineering.
+This is an excellent reference and comes highly recommended to better understand prompt engineering.
 
 > Vale, A., & Bouchentouf, A. (2025, April 6). *The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction.*  
 > Retrieved from [https://a.co/d/b85p4fm](https://a.co/d/b85p4fm)
