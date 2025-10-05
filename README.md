@@ -72,7 +72,7 @@ This allows the LLM to confirm understanding before generating a response — im
 Brainstorming Vendor Risk Management Ideas  
 
 **T - Temperature**
-Tempearture=0.2
+Tempearture=1.0
 
 **C — Context:**  
 I am a cybersecurity professional working at a large enterprise. My task is to explore potential AI/ML project ideas for enhancing vendor risk management processes. These ideas will be presented to executive management as part of a strategic innovation initiative.  
@@ -117,6 +117,8 @@ Where? <br>
 Why? <br>
 How? <br>
 
+----- START PROMPT
+
 Title: <br>
 Temperature=<br>
 Context: <br> 
@@ -128,6 +130,8 @@ Constraints: <br>
 Examples:  <br> 
 
 Acknowledge your understanding of the prompt and ask any follow-up questions for clarification.
+
+----- END PROMPT
 
 ---
 
