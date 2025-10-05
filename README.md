@@ -1,5 +1,5 @@
 # Blog:  TCROFTCE Prompt Engineering
-2025-10-04
+Published: 2025-10-04 | Updated: 2025-10-05
 
 ---
 
@@ -31,7 +31,7 @@ To clarify your prompt, before implementing the TCROFTCE framework, answer the 5
 | **When?** | Establishes *the timeline or timeframe* for relevance. | “Focus on optimization strategies that can be implemented within the next 6 months.” |
 | **Where?** | Sets *the scope or environment* where the task applies. | “Consider a hybrid IT infrastructure spanning on-premise and cloud systems.” |
 | **Why?** | Clarifies *the purpose or goal* — why this task matters. | “The goal is to reduce operational costs while improving reliability and performance.” |
-| **How?** | Describes *the approach or format* the response should follow. | “Provide the output as a numbered list with short explanations and implementation steps.” |
+| **How?** | Describes *the approach or format* the response should follow. | “Provide the output as a numbered list with short explanations and implementation steps.  Provide the output as factual or creative.” |
 
 The *key* fields to send the LLM are **CROFTC** sections for the best possible response from the model.  
 **T** and **E** are optional but recommended to help reference the prompt and guide the LLM’s context understanding.  
@@ -40,6 +40,7 @@ If a CROFTC field is left blank, the model may produce **hallucinations** or sli
 | **Field** | **Purpose** | **Description / Example** |
 |------------|--------------|----------------------------|
 | **T — Title** | Descriptive name for the prompt *(optional but valuable)* | Useful for later reference in the chat (e.g., *Vendor Risk Brainstorming Prompt*). |
+| **T — Temperature** | Changes the creativitiy, 0.1-1.5 (lower more deterministic, higher more creative) | Defined by use case |
 | **C — Context** | Provide background and situational details | Example: “I am a cybersecurity analyst working in enterprise risk management to determine potential third-party security gaps.” |
 | **R — Role** | Assign a role to the AI | Example: “You are a cybersecurity strategist with expertise in vendor risk and governance.” |
 | **O — Objective** | Clearly state what you want the AI to achieve or produce | Example: “Generate a list of AI/ML project ideas for improving vendor risk management.” |
@@ -59,6 +60,9 @@ This allows the LLM to confirm understanding before generating a response — im
 
 **T — Title:**  
 Brainstorming Vendor Risk Management Ideas  
+
+**T - Temperature=**
+Tempearture=0.2
 
 **C — Context:**  
 I am a cybersecurity professional working at a large enterprise. My task is to explore potential AI/ML project ideas for enhancing vendor risk management processes. These ideas will be presented to executive management as part of a strategic innovation initiative.  
