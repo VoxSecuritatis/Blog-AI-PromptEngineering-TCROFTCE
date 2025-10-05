@@ -1,9 +1,9 @@
-# Blog:  TCROFTCE Prompt Engineering
+# Blog:  TTCROFTCE Prompt Engineering
 Published: 2025-10-04 | Updated: 2025-10-05
 
 ---
 
-This prompt template was originally developed and explained in the book "The Prompt Recipe:  A Practical Guide to Prompt Engineering" by Alden Vale and Ahmed Bouchentouf.  
+This prompt template is a variation of the template which was originally developed and explained in the book "The Prompt Recipe:  A Practical Guide to Prompt Engineering" by Alden Vale and Ahmed Bouchentouf.  
 This is an excellent reference and comes highly recommended to better understand prompt engineering.
 
 > Vale, A., & Bouchentouf, A. (2025, April 6). *The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction.*  
@@ -20,7 +20,17 @@ This is an excellent reference and comes highly recommended to better understand
 
 ---
 
-### **TCROFTCE Framework**
+The original CROFTC template outlined in The Prompt Recipe, was modified to add the following enrichments:
+
+Title (T), Temperature (T), ..., Examples (E)
+
+I find that adding a Title allows me to refer to the original prompt later in the dialog with the LLM (sometimes the LLM needs to be reminded about the original intent, this reminds it).
+Temperature is an important setting depending on what your end gaol.
+Examples is a key feature to ensure you get the output or reference to provide context.  The more detail like this the closer to your vision.
+
+---
+
+### **TTCROFTCE Framework**
 
 To clarify your prompt, before implementing the TCROFTCE framework, answer the 5W and 1H (who, what, when, where, why, and how) critical thinking questions:
 
@@ -61,7 +71,7 @@ This allows the LLM to confirm understanding before generating a response — im
 **T — Title:**  
 Brainstorming Vendor Risk Management Ideas  
 
-**T - Temperature=**
+**T - Temperature**
 Tempearture=0.2
 
 **C — Context:**  
@@ -96,7 +106,7 @@ Acknowledge your understanding of the prompt and ask any follow-up questions for
 
 ---
 
-## TCROFTCE Template Prompt
+## TTCROFTCE Template Prompt
 
 > Copy and paste the following into a text editor to build out the prompt, after creating prompt, copy and paste it into the LLM prompt input text box.
 
@@ -108,6 +118,7 @@ Why? <br>
 How? <br>
 
 Title: <br>
+Temperature=<br>
 Context: <br> 
 Role: <br> 
 Objective: <br> 
