@@ -71,7 +71,7 @@ This allows the LLM to confirm understanding before generating a response — im
 **T — Title:**  
 Brainstorming Vendor Risk Management Ideas  
 
-**T - Temperature**
+**T - Temperature**<br>
 Tempearture=1.0
 
 **C — Context:**  
